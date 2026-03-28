@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <ul style="list-style-type: decimal">
+      <li>JavaScript</li>
+      <li>JavaPuro</li>
+      <li>C++</li>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para estruturar conteúdo web</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de estilos para apresentação visual</dd>
+        <dd>Controla cores, fontes, layout e responsividade</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para interatividade</dd>
+      </dl>
+
+      <dl class="product-specs">
+        <dt>Marca</dt>
+        <dd>TechCorp</dd>
+
+        <dt>Modelo</dt>
+        <dd>Pro X15</dd>
+
+        <dt>Especificações</dt>
+        <dd>
+          <ul>
+            <li>Processador: Intel i7</li>
+            <li>RAM: 16GB</li>
+            <li>SSD: 512GB</li>
+          </ul>
+        </dd>
+
+        <dt>Garantia</dt>
+        <dd>2 anos</dd>
+      </dl>
+    </ul>
+    <ul class="feature-cards">
+      <li>
+        <h3>🚀 Performance</h3>
+        <p>Otimizado para velocidade</p>
+      </li>
+      <li>
+        <h3>🔒 Segurança</h3>
+        <p>Proteção de dados</p>
+      </li>
+    </ul>
+
+    <style>
+      .feature-cards {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+
+      .feature-cards li {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        /* sombreamento. */
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .feature-cards li:hover {
+        transform: rotate3d(5, 5.0, 8.0, 10deg);
+      }
+    </style>
+  </body>
+</html>
