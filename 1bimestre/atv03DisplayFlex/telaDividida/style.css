@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  border: 2px solid rgb(255, 0, 0);
+  height: 10%;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid rgb(0, 0, 0);
+  height: 90%;
+}
+
+section {
+  border: 3px solid rgb(255, 0, 0);
+  width: 50%;
+}
+
+ul {
+  border: 3px solid rgb(0, 0, 0);
+  height: 100%;
+}
+
+h1 {
+  border: 3px solid rgb(255, 0, 0);
+  height: 40%;
+}
+
+p {
+  border: 3px solid rgb(0, 0, 0);
+  height: 20%;
+}
+
+button {
+  border: 3px solid rgb(255, 0, 0);
+  height: 20%;
+}

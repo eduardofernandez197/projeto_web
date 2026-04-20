@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  border: 2px solid rgb(3, 3, 3);
+  height: 100%;
+  flex-direction: column;
+}
+
+section {
+  height: 60%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+img {
+  height: 100%;
+}
+.cards {
+  height: 100%;
+  width: 20%;
+  border: 2px solid rgb(0, 0, 0);
+}
+h1 {
+  height: 15%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+li {
+  height: 100%;
+}
+ul {
+  display: flex;
+  height: 85%;
+  justify-content: space-around;
+}
+
+
+
+p {
+  height: 40%;
+  border: 2px solid rgb(10, 10, 10);
+}

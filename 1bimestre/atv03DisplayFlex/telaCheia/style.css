@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  height: 15%;
+  flex-direction: row;
+}
+nav {
+  border: 2px solid rgb(255, 0, 0);
+  width: 65%;
+}
+
+.botaoCabecalho {
+  border: 2px solid rgb(255, 0, 0);
+  width: 35%;
+}
+main {
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  height: 85%;
+  justify-content: center;
+}
+
+section {
+  border: 2px solid rgb(255, 0, 0);
+  width: 75%;
+}
+
+h1 {
+  border: 2px solid rgb(0, 0, 0);
+  height: 40%;
+}
+
+p {
+  border: 2px solid rgb(255, 0, 0);
+  height: 30%;
+}
+
+.botoes {
+  border: 2px solid rgb(0, 0, 0);
+  height: 30%;
+  width: 100%;
+}

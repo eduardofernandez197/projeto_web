@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+nav {
+  border: 2px solid rgb(0, 0, 0);
+  width: 70%;
+}
+
+.barraPesquisar {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.botaoLogin {
+  border: 2px solid rgb(0, 0, 0);
+}
+header {
+  display: flex;
+  height: 10%;
+  border: 2px solid rgb(0, 0, 0);
+  justify-content: center;
+  gap: 3px;
+}
+
+main {
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  height: 90%;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.postagem {
+  height: 20%;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+div {
+  border: 2px solid rgb(0, 0, 0);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 80%;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 4px;
+}
